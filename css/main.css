@@ -1,0 +1,272 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+
+.container{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0px auto;
+}
+
+.row:before, .row:after{
+	content: " ";
+	display: table;
+}
+.row:after{
+	clear:both;
+}
+
+[class*="col-"]{
+	min-height: 7px;
+	padding: 12px;
+	float: left;
+}
+
+.col-1{
+	width: 8.333333%;
+}
+
+.col-2{
+	width: 16.666667%;
+}
+
+.col-3{
+	width: 25%;
+}
+
+.col-4{
+	width: 33.333333%;
+}
+
+.col-5{
+	width: 41.666667%;
+}
+
+.col-6{
+	width: 50%;
+}
+
+.col-7{
+	width: 58.333333%;
+}
+
+.col-8{
+	width: 66.666667%;
+}
+
+.col-9{
+	width: 75%;
+}
+
+.col-10{
+	width: 83.333333%;
+}
+
+.col-11{
+	width: 91.666667%;
+}
+
+.col-12{
+	width: 100%;
+}
+
+
+
+header, .main{
+	width: 90%;
+	margin:auto;
+}
+
+header nav{
+	overflow: hidden;
+	background-color: #ffffff;
+	margin-left: 200px;
+}
+header nav ul{
+	overflow: hidden;
+	list-style: none;
+}
+
+header nav ul li{
+	float:left;
+	padding-left: 25px;
+	padding-right: 25px;
+	border:solid 1px black;
+	border-top:none;
+	border-bottom: none;
+	margin: 0px 1px;
+}
+
+header nav ul li a{
+	padding: 10px 20px;
+	display: block;
+	color: black;
+	text-decoration: none;
+}
+
+header nav ul li a:hover{
+	font-weight: bold;
+}
+
+.photo{
+	margin-left:170px;
+}
+
+.palabras{
+	text-align: center;
+	font-size: 30px;
+	display: block;
+	margin-left: 300px;
+	margin-right: 300px;
+}
+
+hr.style2{
+	border-top: 3px solid #8E8C8C;
+	width: 80px;
+	display: inline-block;
+	margin-left: 490px;
+	margin-bottom: 15px;
+}
+
+.coder{
+	margin-left: 170px;
+	margin-right: 170px;
+	margin-bottom: 50px;
+}
+
+.caja1{
+	width: 200px;
+	height: 200px;
+	background-image: url("../img/profile-1.png");
+}
+
+.caja2{
+	width: 200px;
+	height: 200px;
+	background-image: url("../img/profile-2.png");
+	position: relative;
+}
+
+.caja3{
+	width: 200px;
+	height: 200px;
+	background-image: url("../img/profile-3.png");
+	position: relative;
+}
+
+
+.caja4{
+	width: 200px;
+	height: 200px;
+	background-image: url("../img/profile-4.png");
+	position: relative;
+}
+
+.caja5{
+	width: 200px;
+	height: 200px;
+	background-image: url("../img/profile-5.png");
+	position: relative;
+}
+
+.caja6{
+	width: 200px;
+	height: 200px;
+	background-image: url("../img/profile-6.png");
+	position: relative;
+}
+
+.texto1{
+	position: absolute;
+	margin-top: 182px;
+	margin-left: 80px;
+	color: white;
+}
+
+hr.style1{
+	border-top: 3px solid black;
+	width: 80px;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.caja1 a:link{
+	text-decoration: none;
+	color:black;
+	background-color: white;
+}
+
+.caja1 a:visited{
+	text-decoration: none;
+	color:black;
+	background-color: white;
+}
+
+.caja1 a:hover{
+	color:ffffff;
+	background-color: #4E5BD4;
+}
+
+/*css coder detail*/
+
+.fotoredonda{
+	border-radius: 50%;
+	margin-left: 420px;
+}
+
+.yapellido{
+	margin-left: 400px;
+}
+
+.conborde{
+	margin-top: 5px;
+}
+
+.biografia{
+	font-size: 20px;
+	text-align: center;
+	margin-left: 285px;
+	margin-right: 285px;
+}
+
+.box1,.box2,.box3{
+	background-color: grey;
+	width: 490px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	margin-left: 280px;
+}
+
+.pbox{
+	color:white;
+}
+
+.box2{
+	width: 330px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.box3{
+	width: 150px;
+}
+
+.habi,.porta{
+	margin-left:260px;
+}
+
+.pic1,.pic2,.pic3{
+	width: 200px;
+	height: 100px;
+}
+
+.pic1{
+	margin-left: 180px;
+}
+
+.pic2{
+	margin-left: 100px;
+}
